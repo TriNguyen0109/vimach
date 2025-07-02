@@ -1,4 +1,4 @@
-wire reset =~rst_n;
+wire reset = ~rst_n;
 assign uio_out = 0;
 assign uio_oe = 0;
 wire_unuse = &(ena,uio_in,1'b0);
