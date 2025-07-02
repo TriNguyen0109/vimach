@@ -1,6 +1,5 @@
 # ASICLAB Wokwi project information 
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "Vimach"      # Project title
   author:       "Tri and An"      # Your name
   discord:      "1234"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
