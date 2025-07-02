@@ -14,7 +14,7 @@ module tt_um_asiclab_example (
 wire reset = ~rst_n;
 assign uio_out = 8'b0;
 assign uio_oe = 8'b0;
-wire wire_unuse = &{ena,uio_in,1'b0};
+wire unuse = &{ena,uio_in,1'b0};
 
  always @(posedge clk or posedge reset) begin
   if (reset) begin
